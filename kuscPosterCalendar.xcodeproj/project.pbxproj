@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00733756E9BB1C4932E43048 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C96C6792461E7D47847B132 /* Pods.framework */; };
 		CE8EF1AB1D8A9DF2002E464A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1AA1D8A9DF2002E464A /* AppDelegate.swift */; };
 		CE8EF1AD1D8A9DF2002E464A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1AC1D8A9DF2002E464A /* RootViewController.swift */; };
 		CE8EF1AF1D8A9DF2002E464A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1AE1D8A9DF2002E464A /* DataViewController.swift */; };
 		CE8EF1B11D8A9DF2002E464A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1B01D8A9DF2002E464A /* ModelController.swift */; };
 		CE8EF1B41D8A9DF2002E464A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF1B21D8A9DF2002E464A /* Main.storyboard */; };
 		CE8EF1B61D8A9DF2002E464A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF1B51D8A9DF2002E464A /* Assets.xcassets */; };
-		CE8EF1B91D8A9DF2002E464A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF1B71D8A9DF2002E464A /* LaunchScreen.storyboard */; };
+		CE8EF1B91D8A9DF2002E464A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8EF1B71D8A9DF2002E464A /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (icon, ); }; };
 		CE8EF1C41D8A9DF2002E464A /* kuscPosterCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1C31D8A9DF2002E464A /* kuscPosterCalendarTests.swift */; };
 		CE8EF1CF1D8A9DF2002E464A /* kuscPosterCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1CE1D8A9DF2002E464A /* kuscPosterCalendarUITests.swift */; };
+		CE8EF1E21D8AC0B7002E464A /* ImageContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1E11D8AC0B7002E464A /* ImageContainerView.swift */; settings = {ASSET_TAGS = (); }; };
+		CE8EF1E41D8AE1FE002E464A /* kuscUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF1E31D8AE1FE002E464A /* kuscUIView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C96C6792461E7D47847B132 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C739C9004508FBC844323BBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CE8EF1A71D8A9DF2002E464A /* kuscPosterCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuscPosterCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8EF1AA1D8A9DF2002E464A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8EF1AC1D8A9DF2002E464A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		CE8EF1CA1D8A9DF2002E464A /* kuscPosterCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kuscPosterCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8EF1CE1D8A9DF2002E464A /* kuscPosterCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kuscPosterCalendarUITests.swift; sourceTree = "<group>"; };
 		CE8EF1D01D8A9DF2002E464A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8EF1E11D8AC0B7002E464A /* ImageContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageContainerView.swift; sourceTree = "<group>"; };
+		CE8EF1E31D8AE1FE002E464A /* kuscUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kuscUIView.swift; sourceTree = "<group>"; };
+		F922CBD0679A09918031F5B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00733756E9BB1C4932E43048 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CE932DC939653A5D0FBA416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C96C6792461E7D47847B132 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79C54A2618314F54D1001BA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C739C9004508FBC844323BBB /* Pods.debug.xcconfig */,
+				F922CBD0679A09918031F5B9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE8EF19E1D8A9DF2002E464A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				CE8EF1C21D8A9DF2002E464A /* kuscPosterCalendarTests */,
 				CE8EF1CD1D8A9DF2002E464A /* kuscPosterCalendarUITests */,
 				CE8EF1A81D8A9DF2002E464A /* Products */,
+				79C54A2618314F54D1001BA8 /* Pods */,
+				1CE932DC939653A5D0FBA416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +132,8 @@
 				CE8EF1AA1D8A9DF2002E464A /* AppDelegate.swift */,
 				CE8EF1AC1D8A9DF2002E464A /* RootViewController.swift */,
 				CE8EF1AE1D8A9DF2002E464A /* DataViewController.swift */,
+				CE8EF1E11D8AC0B7002E464A /* ImageContainerView.swift */,
+				CE8EF1E31D8AE1FE002E464A /* kuscUIView.swift */,
 				CE8EF1B01D8A9DF2002E464A /* ModelController.swift */,
 				CE8EF1B21D8A9DF2002E464A /* Main.storyboard */,
 				CE8EF1B51D8A9DF2002E464A /* Assets.xcassets */,
@@ -138,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE8EF1D31D8A9DF2002E464A /* Build configuration list for PBXNativeTarget "kuscPosterCalendar" */;
 			buildPhases = (
+				EF769D3EF9A399210D56C06C /* Check Pods Manifest.lock */,
 				CE8EF1A31D8A9DF2002E464A /* Sources */,
 				CE8EF1A41D8A9DF2002E464A /* Frameworks */,
 				CE8EF1A51D8A9DF2002E464A /* Resources */,
+				BCED5432522A67B3FFDAEE2C /* Embed Pods Frameworks */,
+				7098D43EC083A5E020116C2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +226,9 @@
 		CE8EF19F1D8A9DF2002E464A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					icon,
+				);
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = yip;
 				TargetAttributes = {
@@ -256,11 +292,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7098D43EC083A5E020116C2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCED5432522A67B3FFDAEE2C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF769D3EF9A399210D56C06C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE8EF1A31D8A9DF2002E464A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8EF1E41D8AE1FE002E464A /* kuscUIView.swift in Sources */,
+				CE8EF1E21D8AC0B7002E464A /* ImageContainerView.swift in Sources */,
 				CE8EF1AD1D8A9DF2002E464A /* RootViewController.swift in Sources */,
 				CE8EF1B11D8A9DF2002E464A /* ModelController.swift in Sources */,
 				CE8EF1AF1D8A9DF2002E464A /* DataViewController.swift in Sources */,
@@ -404,8 +490,10 @@
 		};
 		CE8EF1D41D8A9DF2002E464A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C739C9004508FBC844323BBB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				INFOPLIST_FILE = kuscPosterCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kusc.kuscPosterCalendar;
@@ -415,8 +503,10 @@
 		};
 		CE8EF1D51D8A9DF2002E464A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F922CBD0679A09918031F5B9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				INFOPLIST_FILE = kuscPosterCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kusc.kuscPosterCalendar;
@@ -491,6 +581,7 @@
 				CE8EF1D51D8A9DF2002E464A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8EF1D61D8A9DF2002E464A /* Build configuration list for PBXNativeTarget "kuscPosterCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +590,7 @@
 				CE8EF1D81D8A9DF2002E464A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8EF1D91D8A9DF2002E464A /* Build configuration list for PBXNativeTarget "kuscPosterCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +599,7 @@
 				CE8EF1DB1D8A9DF2002E464A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

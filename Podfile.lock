@@ -1,0 +1,13 @@
+PODS:
+  - Neon (0.0.3)
+  - SideMenu (1.0.3)
+
+DEPENDENCIES:
+  - Neon
+  - SideMenu
+
+SPEC CHECKSUMS:
+  Neon: 589d3d217d326abe09726bf81add106cff685bf2
+  SideMenu: 166ea23f143a8df84d0cf2170057793e26f0ba9e
+
+COCOAPODS: 0.39.0

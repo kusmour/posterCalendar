@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import SideMenu
 
 class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     var pageViewController: UIPageViewController?
-
+    
+    override func prefersStatusBarHidden()->Bool {
+        return true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,8 +23,15 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         // Configure the page view controller and add it as a child view controller.
         self.pageViewController = UIPageViewController(transitionStyle: .PageCurl, navigationOrientation: .Horizontal, options: nil)
         self.pageViewController!.delegate = self
+        
+        // get the current month
+        let dateFormatter: NSDateFormatter = NSDateFormatter();
+        dateFormatter.dateFormat = "yyyy/MM/dd";
+        let dateString: String = dateFormatter.stringFromDate(NSDate());
+        let dates: [String] = dateString.componentsSeparatedByString("/")
+        let currentMonth: Int = Int(dates[1])! - 1
 
-        let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(0, storyboard: self.storyboard!)!
+        let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(currentMonth, storyboard: self.storyboard!)!
         let viewControllers = [startingViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: false, completion: {done in })
 
@@ -40,12 +51,15 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
         // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
         self.view.gestureRecognizers = self.pageViewController!.gestureRecognizers
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
     var modelController: ModelController {
         // Return the model controller object, creating it if necessary.

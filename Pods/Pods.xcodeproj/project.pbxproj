@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08DAF1F845936AB000F4C5E481082D1D /* NeonGroupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADF146F6F1B5B4A5902A921F082F91 /* NeonGroupable.swift */; };
+		1F8BA3ABA9615CBB1BE35592BCE67E4A /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 845C32D63DEE8D14C847299A7886E2D7 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F3CA475DCFA3C7F634721A30B9CCCD9 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC3AFB6AFE097248487DF4C9BC9663 /* UITableViewVibrantCell.swift */; };
+		63ABE6ACA425ACDD324E8ABC707DEB11 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6764D532E288CA89766A9D885A25B03A /* NeonAnchorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F59110A896329E674DB9F65DF0A6C6 /* NeonAnchorable.swift */; };
+		75AB56A3D9B1E6C23DE4E72FD94F7317 /* SideMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A3CFD169E9489915BEC4D0795A6D97B /* SideMenu.bundle */; };
+		8DAD531ED0B83048D1B4A924C2BE2952 /* NeonAlignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D46FA19815D1A5F4A939EDC97902D8 /* NeonAlignable.swift */; };
+		9CD72B1EA06021BD3C4A9990ABE71074 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABABD15E1492032F7EF7E16868BDB0F /* SideMenuTransition.swift */; };
+		A28415237C108CCE96F81B1A9EE24150 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057BEEBBD257F0602F683A00E7C855BC /* SideMenu-dummy.m */; };
+		A4930BAA530F2FBF0EE828E54F06C9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C048096C82E18380019DD7BE2DB3195F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C095B124EF44F1305C66700A93D119F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CCCEA5C351D31661AA8DFF125834D2AF /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF32EC59C09547C0AFDB520092C01C6A /* SideMenuManager.swift */; };
+		CD048172CA54F77987F3513F93D62F6A /* Neon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BED8E977E21F6E22F76B820BC9C5FEA /* Neon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD0D36DF7E1583DE94D0879DE4BFF870 /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C2C792CD85FE98D0981CA2D241E1B /* Neon.swift */; };
+		DD1414527022BDB1CB9793567036713D /* Neon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96EF9EDE9A2D853D29096D5B485BEE /* Neon-dummy.m */; };
+		DFFFD7E813969DC150B5D656AFF17CEA /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842009B5D3F9B91520229C89B148244A /* UISideMenuNavigationController.swift */; };
+		F476F1479B5A33159D35938F15F62C77 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		F4A34B91F0D6D093E5B93A3196893538 /* NeonFrameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE905FE97AFF8E0FD78957B63F9B54B /* NeonFrameable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EBC55FA150F694C398E60EAEA59ABB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C26CF85EB7196DEF0B39684D8D2815;
+			remoteInfo = "SideMenu-SideMenu";
+		};
+		8FA514461C7916EA094D741C99647666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A447EEC6919F8DC2D2FBA16E5ED5D1B;
+			remoteInfo = SideMenu;
+		};
+		E4E30C06A19E83CB5F6D1B118F3BD37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2620F12C1176436B3B3784520F311BC7;
+			remoteInfo = Neon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057BEEBBD257F0602F683A00E7C855BC /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		17CFE5C8093B918B471402B25A2DA529 /* Neon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Neon.modulemap; sourceTree = "<group>"; };
+		1B884A1D0E4B0B092650038D86C07D9A /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		254278BEEC0DDD48E045C07E73ABB3EF /* Neon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neon.xcconfig; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2BE905FE97AFF8E0FD78957B63F9B54B /* NeonFrameable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeonFrameable.swift; path = Source/NeonFrameable.swift; sourceTree = "<group>"; };
+		3BED8E977E21F6E22F76B820BC9C5FEA /* Neon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neon-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		498BD0C823B25B615B8A42E22C949CCF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AADF146F6F1B5B4A5902A921F082F91 /* NeonGroupable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeonGroupable.swift; path = Source/NeonGroupable.swift; sourceTree = "<group>"; };
+		4F96EF9EDE9A2D853D29096D5B485BEE /* Neon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Neon-dummy.m"; sourceTree = "<group>"; };
+		5D83C0F97AD2D0849C23E95802F6CFC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634C2C792CD85FE98D0981CA2D241E1B /* Neon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Neon.swift; path = Source/Neon.swift; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7A3CFD169E9489915BEC4D0795A6D97B /* SideMenu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		842009B5D3F9B91520229C89B148244A /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		845C32D63DEE8D14C847299A7886E2D7 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		93A95D210BF08BF4C7FA28806BB2330C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9BD4444B0E87275D8649BA0A5325CE32 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		A0C64B6072BC0689E0A351D3D515AE55 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55CC9C6EB59D17E4DD9330A2D1A61F3 /* Neon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABABD15E1492032F7EF7E16868BDB0F /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		B5F59110A896329E674DB9F65DF0A6C6 /* NeonAnchorable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeonAnchorable.swift; path = Source/NeonAnchorable.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF32EC59C09547C0AFDB520092C01C6A /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		BFC9C70057A67DE4B6CA4EBFE162B3CB /* Neon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neon-prefix.pch"; sourceTree = "<group>"; };
+		C8BC3AFB6AFE097248487DF4C9BC9663 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8D46FA19815D1A5F4A939EDC97902D8 /* NeonAlignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeonAlignable.swift; path = Source/NeonAlignable.swift; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DC487E692D536BE9B4C9D65B627453D6 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821DDD6E91323D2C2C0A8223077B6AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C048096C82E18380019DD7BE2DB3195F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE5846800E9064874A8A0A0F5F76B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51A1EDC7F5C8197ABBC393E05162E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4930BAA530F2FBF0EE828E54F06C9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A828D266C274BD4CFCE52BC2D748D0C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C095B124EF44F1305C66700A93D119F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F86FE9A2ABA521FE00F197C1881209 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93A95D210BF08BF4C7FA28806BB2330C /* Info.plist */,
+				1B884A1D0E4B0B092650038D86C07D9A /* SideMenu.modulemap */,
+				DC487E692D536BE9B4C9D65B627453D6 /* SideMenu.xcconfig */,
+				057BEEBBD257F0602F683A00E7C855BC /* SideMenu-dummy.m */,
+				9BD4444B0E87275D8649BA0A5325CE32 /* SideMenu-prefix.pch */,
+				845C32D63DEE8D14C847299A7886E2D7 /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		3A50BBE087F44DE770A4737F2DCC80C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D83C0F97AD2D0849C23E95802F6CFC9 /* Info.plist */,
+				17CFE5C8093B918B471402B25A2DA529 /* Neon.modulemap */,
+				254278BEEC0DDD48E045C07E73ABB3EF /* Neon.xcconfig */,
+				4F96EF9EDE9A2D853D29096D5B485BEE /* Neon-dummy.m */,
+				BFC9C70057A67DE4B6CA4EBFE162B3CB /* Neon-prefix.pch */,
+				3BED8E977E21F6E22F76B820BC9C5FEA /* Neon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Neon";
+			sourceTree = "<group>";
+		};
+		460B863953C2780A70EBAFEFD779A39C /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BF32EC59C09547C0AFDB520092C01C6A /* SideMenuManager.swift */,
+				AABABD15E1492032F7EF7E16868BDB0F /* SideMenuTransition.swift */,
+				842009B5D3F9B91520229C89B148244A /* UISideMenuNavigationController.swift */,
+				C8BC3AFB6AFE097248487DF4C9BC9663 /* UITableViewVibrantCell.swift */,
+				17F86FE9A2ABA521FE00F197C1881209 /* Support Files */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		4BACF0A0C04D48CAA8BD92AE2F4218D5 /* Neon */ = {
+			isa = PBXGroup;
+			children = (
+				634C2C792CD85FE98D0981CA2D241E1B /* Neon.swift */,
+				D8D46FA19815D1A5F4A939EDC97902D8 /* NeonAlignable.swift */,
+				B5F59110A896329E674DB9F65DF0A6C6 /* NeonAnchorable.swift */,
+				2BE905FE97AFF8E0FD78957B63F9B54B /* NeonFrameable.swift */,
+				4AADF146F6F1B5B4A5902A921F082F91 /* NeonGroupable.swift */,
+				3A50BBE087F44DE770A4737F2DCC80C4 /* Support Files */,
+			);
+			path = Neon;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BF3DC7FD97CA24815CEAFACFC0D1C8AC /* Pods */,
+				C0D01A4AB1514762EDF19589CD8E9ECB /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3DC7FD97CA24815CEAFACFC0D1C8AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BACF0A0C04D48CAA8BD92AE2F4218D5 /* Neon */,
+				460B863953C2780A70EBAFEFD779A39C /* SideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0D01A4AB1514762EDF19589CD8E9ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55CC9C6EB59D17E4DD9330A2D1A61F3 /* Neon.framework */,
+				498BD0C823B25B615B8A42E22C949CCF /* Pods.framework */,
+				7A3CFD169E9489915BEC4D0795A6D97B /* SideMenu.bundle */,
+				A0C64B6072BC0689E0A351D3D515AE55 /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5980727CCF0FDA943E5E6327A3EB4CDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ABE6ACA425ACDD324E8ABC707DEB11 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE2BEB2A19EF59BDA5488FFB8D08F37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD048172CA54F77987F3513F93D62F6A /* Neon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03C4C3F8A84E0DF93C4A02CF458ED29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8BA3ABA9615CBB1BE35592BCE67E4A /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2620F12C1176436B3B3784520F311BC7 /* Neon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA5F85357E2A6B0BF07C04328B343EB /* Build configuration list for PBXNativeTarget "Neon" */;
+			buildPhases = (
+				72C566C02302334847699238E0AC87A7 /* Sources */,
+				821DDD6E91323D2C2C0A8223077B6AC0 /* Frameworks */,
+				AEE2BEB2A19EF59BDA5488FFB8D08F37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neon;
+			productName = Neon;
+			productReference = A55CC9C6EB59D17E4DD9330A2D1A61F3 /* Neon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A447EEC6919F8DC2D2FBA16E5ED5D1B /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8104EDF1AFD70034CCB2B2717BC18C7 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				CB03DBBA0CCE2863D034F6B0C00D124D /* Sources */,
+				A51A1EDC7F5C8197ABBC393E05162E80 /* Frameworks */,
+				3364F97386974E51D7F282E32774B0A6 /* Resources */,
+				E03C4C3F8A84E0DF93C4A02CF458ED29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C731D92B5C1325A89FACE3722BC7E59 /* PBXTargetDependency */,
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = A0C64B6072BC0689E0A351D3D515AE55 /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EE1F9DDBDCEF0D282B81E201BE532A8 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8DFC90C11F96D8090744D98826944 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5946ECFF740C799E39A7BFD8B1785F24 /* Sources */,
+				A828D266C274BD4CFCE52BC2D748D0C3 /* Frameworks */,
+				5980727CCF0FDA943E5E6327A3EB4CDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D0E40FB7BA761D761C39EED8ABF03F6 /* PBXTargetDependency */,
+				DBBBF36E4ADCBBB662554E2C4C87F096 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 498BD0C823B25B615B8A42E22C949CCF /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6C26CF85EB7196DEF0B39684D8D2815 /* SideMenu-SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61954A7B759142FC8CCC80BF6BC4DBBA /* Build configuration list for PBXNativeTarget "SideMenu-SideMenu" */;
+			buildPhases = (
+				361DF80446C91CAA052079260312FBA1 /* Sources */,
+				93DE5846800E9064874A8A0A0F5F76B1 /* Frameworks */,
+				9B528DE7146FC53CBC08A0A06D6C6955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SideMenu-SideMenu";
+			productName = "SideMenu-SideMenu";
+			productReference = 7A3CFD169E9489915BEC4D0795A6D97B /* SideMenu.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C0D01A4AB1514762EDF19589CD8E9ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2620F12C1176436B3B3784520F311BC7 /* Neon */,
+				8EE1F9DDBDCEF0D282B81E201BE532A8 /* Pods */,
+				5A447EEC6919F8DC2D2FBA16E5ED5D1B /* SideMenu */,
+				E6C26CF85EB7196DEF0B39684D8D2815 /* SideMenu-SideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3364F97386974E51D7F282E32774B0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB56A3D9B1E6C23DE4E72FD94F7317 /* SideMenu.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B528DE7146FC53CBC08A0A06D6C6955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361DF80446C91CAA052079260312FBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5946ECFF740C799E39A7BFD8B1785F24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F476F1479B5A33159D35938F15F62C77 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C566C02302334847699238E0AC87A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1414527022BDB1CB9793567036713D /* Neon-dummy.m in Sources */,
+				CD0D36DF7E1583DE94D0879DE4BFF870 /* Neon.swift in Sources */,
+				8DAD531ED0B83048D1B4A924C2BE2952 /* NeonAlignable.swift in Sources */,
+				6764D532E288CA89766A9D885A25B03A /* NeonAnchorable.swift in Sources */,
+				F4A34B91F0D6D093E5B93A3196893538 /* NeonFrameable.swift in Sources */,
+				08DAF1F845936AB000F4C5E481082D1D /* NeonGroupable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB03DBBA0CCE2863D034F6B0C00D124D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28415237C108CCE96F81B1A9EE24150 /* SideMenu-dummy.m in Sources */,
+				CCCEA5C351D31661AA8DFF125834D2AF /* SideMenuManager.swift in Sources */,
+				9CD72B1EA06021BD3C4A9990ABE71074 /* SideMenuTransition.swift in Sources */,
+				DFFFD7E813969DC150B5D656AFF17CEA /* UISideMenuNavigationController.swift in Sources */,
+				5F3CA475DCFA3C7F634721A30B9CCCD9 /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D0E40FB7BA761D761C39EED8ABF03F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Neon;
+			target = 2620F12C1176436B3B3784520F311BC7 /* Neon */;
+			targetProxy = E4E30C06A19E83CB5F6D1B118F3BD37C /* PBXContainerItemProxy */;
+		};
+		1C731D92B5C1325A89FACE3722BC7E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SideMenu-SideMenu";
+			target = E6C26CF85EB7196DEF0B39684D8D2815 /* SideMenu-SideMenu */;
+			targetProxy = 0EBC55FA150F694C398E60EAEA59ABB8 /* PBXContainerItemProxy */;
+		};
+		DBBBF36E4ADCBBB662554E2C4C87F096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = 5A447EEC6919F8DC2D2FBA16E5ED5D1B /* SideMenu */;
+			targetProxy = 8FA514461C7916EA094D741C99647666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C0B591919F0AB0C76C9315F2A2CEEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23ABA371F04C89FD9821931E5EA6BE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC487E692D536BE9B4C9D65B627453D6 /* SideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9012046553B92A5962D74E8416A05BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254278BEEC0DDD48E045C07E73ABB3EF /* Neon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Neon/Neon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neon/Neon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Neon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0037CC01533B1AEBBD897D15C82113C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC487E692D536BE9B4C9D65B627453D6 /* SideMenu.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C880096139F3E71523E16E9B624C8945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC487E692D536BE9B4C9D65B627453D6 /* SideMenu.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DF1383E7A887A8E4078384F1991138CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF2ECFAC3D17800D8330EA1093B8EEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC487E692D536BE9B4C9D65B627453D6 /* SideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA8FD2A8DCF569107ED98D0E691E49D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254278BEEC0DDD48E045C07E73ABB3EF /* Neon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Neon/Neon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neon/Neon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Neon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8DFC90C11F96D8090744D98826944 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0B591919F0AB0C76C9315F2A2CEEAC /* Debug */,
+				DF1383E7A887A8E4078384F1991138CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61954A7B759142FC8CCC80BF6BC4DBBA /* Build configuration list for PBXNativeTarget "SideMenu-SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C880096139F3E71523E16E9B624C8945 /* Debug */,
+				B0037CC01533B1AEBBD897D15C82113C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA5F85357E2A6B0BF07C04328B343EB /* Build configuration list for PBXNativeTarget "Neon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9012046553B92A5962D74E8416A05BBB /* Debug */,
+				FA8FD2A8DCF569107ED98D0E691E49D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8104EDF1AFD70034CCB2B2717BC18C7 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABA371F04C89FD9821931E5EA6BE62 /* Debug */,
+				EF2ECFAC3D17800D8330EA1093B8EEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
